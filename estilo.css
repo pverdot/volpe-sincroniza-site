@@ -1,0 +1,6 @@
+:root{color-scheme:light dark;--fundo:#fff;--texto:#1f1f1f;--suave:#5f6368}
+@media (prefers-color-scheme:dark){:root{--fundo:#141414;--texto:#ececec;--suave:#a0a0a0}}
+body{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px}
+h1{font-size:1.6rem;margin:0 0 .5rem}h2{font-size:1.1rem;margin-top:2rem}
+.suave{color:var(--suave)}a{color:inherit}
